@@ -141,14 +141,26 @@
   "users": [
     {
       "id": 1,
-      "name": {
-        "firstName": "Nayelli",
-        "lastName": "Olvera"
-      },
-      "role": {
-        "admin": true
-      },
+      "firstName": "Nayelli",
+      "lastName": "Olvera",
+      "role": "admin",
       "email": "admin@ejemplo.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "firstName": "Gabs",
+      "lastName": "Olvera",
+      "role": "kitchen",
+      "email": "cocina@ejemplo.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "firstName": "Memo",
+      "lastName": "Olvera",
+      "role": "waiter",
+      "email": "mesero@ejemplo.com",
       "password": "123456"
     }
   ]
