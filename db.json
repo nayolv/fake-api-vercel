@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Café americano",
       "price": "5",
-      "image": "",
+      "image": "https://www.somoselcafe.com.ar/img/novedades/47.jpg",
       "type": "Desayuno",
       "dataEntry": "2021-12-01",
       "quantity": 1
@@ -13,7 +13,7 @@
       "id": 2,
       "name": "Cafe con leche",
       "price": "7",
-      "image": "",
+      "image": "https://spanishsabores.com/wp-content/uploads/2018/06/Cafe-con-leche-recipe-coffee-in-Madrid.jpg",
       "type": "Desayuno",
       "dataEntry": "2021-12-01",
       "quantity": 1
@@ -22,7 +22,7 @@
       "id": 3,
       "name": "Sandwich de jamón y queso",
       "price": "10",
-      "image": "",
+      "image": "https://www.hogarmania.com/archivos/201105/sandwich-mixto-xl-1280x720x80xX.jpg",
       "type": "Desayuno",
       "dateEntry": "2021-12-01",
       "quantity": 1
@@ -31,7 +31,7 @@
       "id": 4,
       "name": "Jugo de frutas natural",
       "price": "7",
-      "image": "",
+      "image": "https://sivarious.com/wp-content/uploads/2017/04/Smoothies-de-fruta-natural.jpg",
       "type": "Desayuno",
       "dateEntry": "2021-12-02",
       "quantity": 1
@@ -40,7 +40,7 @@
       "id": 5,
       "name": "Hamburguesa simple",
       "price": "10",
-      "image": "",
+      "image": "https://www.menudospeques.net/images/cocinaynutricion/hamburguesas-air-fryer.jpg",
       "type": "Comida",
       "dateEntry": "2021-12-01",
       "quantity": 1
@@ -49,7 +49,7 @@
       "id": 6,
       "name": "Hamburguesa doble",
       "price": "15",
-      "image": "",
+      "image": "https://d31npzejelj8v1.cloudfront.net/media/recipemanager/recipe/1687289598_doble-carne.jpg",
       "type": "Comida",
       "dateEntry": "2021-12-01",
       "quantity": 1
@@ -58,7 +58,7 @@
       "id": 7,
       "name": "Papas Fritas",
       "price": "5",
-      "image": "",
+      "image": "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2020/06/papas-fritas-con-maicena-facil.jpg",
       "type": "Comida",
       "dateEntry": "2021-12-02",
       "quantity": 1
@@ -67,7 +67,7 @@
       "id": 8,
       "name": "Aros de cebolla",
       "price": "5",
-      "image": "",
+      "image": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/DT6XASKCERB5NFKRKTL7ASM3MM.jpg",
       "type": "Comida",
       "dateEntry": "2021-12-02",
       "quantity": 1
@@ -76,7 +76,7 @@
       "id": 9,
       "name": "Agua 500ml",
       "price": "5",
-      "image": "",
+      "image": "https://s.cornershopapp.com/product-images/355302.jpeg",
       "type": "Comida",
       "dateEntry": "2021-12-02",
       "quantity": 1
@@ -85,7 +85,7 @@
       "id": 10,
       "name": "Agua 750ml",
       "price": "7",
-      "image": "",
+      "image": "https://bonafont.com.mx/media/home/botella_new.jpeg",
       "type": "Comida",
       "dateEntry": "2021-12-01",
       "quantity": 1
@@ -94,7 +94,7 @@
       "id": 11,
       "name": "Bebida/gaseosa 500ml",
       "price": "7",
-      "image": "",
+      "image": "https://res.cloudinary.com/riqra/image/upload/w_656,h_656,c_limit,q_auto,f_auto/v1674839595/sellers/14/drqobt0cmhrimfpzrxzp.png",
       "type": "Comida",
       "dateEntry": "2021-12-02",
       "quantity": 1
@@ -103,7 +103,7 @@
       "id": 12,
       "name": "Bebida/gaseosa 750ml",
       "price": "10",
-      "image": "",
+      "image": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00750105536338L.jpg",
       "type": "Comida",
       "dateEntry": "2021-12-07",
       "quantity": 1
@@ -112,7 +112,7 @@
       "id": 13,
       "name": "Chilaquiles Verdes",
       "price": "150",
-      "image": "",
+      "image": "https://mmmole.com/wp-content/uploads/2021/08/chilaquiles-primal-12-1030x682.jpg",
       "type": "Comida",
       "dateEntry": "2021-12-24",
       "quantity": 1
