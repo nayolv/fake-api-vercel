@@ -131,6 +131,23 @@
       "quantity": 1
     }
   ],
+  "categories": [
+    {
+      "id": 1,
+      "category": "Bebidas",
+      "tag": "bebidas"
+    },
+    {
+      "id": 2,
+      "category": "Comida rápida",
+      "tag": "comida-rapida"
+    },
+    {
+      "id": 3,
+      "category": "Plato fuerte",
+      "tag": "plato-fuerte"
+    }
+  ],
   "orders": [
     {
       "id": 1,
