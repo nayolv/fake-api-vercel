@@ -6,6 +6,7 @@
       "price": "5",
       "image": "https://www.somoselcafe.com.ar/img/novedades/47.jpg",
       "category": "Bebidas",
+      "tag": "bebidas",
       "dataEntry": "2021-12-01",
       "quantity": 1
     },
@@ -15,6 +16,7 @@
       "price": "7",
       "image": "https://spanishsabores.com/wp-content/uploads/2018/06/Cafe-con-leche-recipe-coffee-in-Madrid.jpg",
       "category": "Bebidas",
+      "tag": "bebidas",
       "dataEntry": "2021-12-01",
       "quantity": 1
     },
@@ -24,6 +26,7 @@
       "price": "10",
       "image": "https://www.hogarmania.com/archivos/201105/sandwich-mixto-xl-1280x720x80xX.jpg",
       "category": "Comida rápida",
+      "tag": "comida-rapida",
       "dateEntry": "2021-12-01",
       "quantity": 1
     },
@@ -33,6 +36,7 @@
       "price": "7",
       "image": "https://sivarious.com/wp-content/uploads/2017/04/Smoothies-de-fruta-natural.jpg",
       "category": "Bebidas",
+      "tag": "bebidas",
       "dateEntry": "2021-12-02",
       "quantity": 1
     },
@@ -42,6 +46,7 @@
       "price": "10",
       "image": "https://www.menudospeques.net/images/cocinaynutricion/hamburguesas-air-fryer.jpg",
       "category": "Comida rápida",
+      "tag": "comida-rapida",
       "dateEntry": "2021-12-01",
       "quantity": 1
     },
@@ -51,6 +56,7 @@
       "price": "15",
       "image": "https://d31npzejelj8v1.cloudfront.net/media/recipemanager/recipe/1687289598_doble-carne.jpg",
       "category": "Comida rápida",
+      "tag": "comida-rapida",
       "dateEntry": "2021-12-01",
       "quantity": 1
     },
@@ -60,6 +66,7 @@
       "price": "5",
       "image": "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2020/06/papas-fritas-con-maicena-facil.jpg",
       "category": "Comida rápida",
+      "tag": "comida-rapida",
       "dateEntry": "2021-12-02",
       "quantity": 1
     },
@@ -69,6 +76,7 @@
       "price": "5",
       "image": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/DT6XASKCERB5NFKRKTL7ASM3MM.jpg",
       "category": "Comida rápida",
+      "tag": "comida-rapida",
       "dateEntry": "2021-12-02",
       "quantity": 1
     },
@@ -78,6 +86,7 @@
       "price": "5",
       "image": "https://s.cornershopapp.com/product-images/355302.jpeg",
       "category": "Bebidas",
+      "tag": "bebidas",
       "dateEntry": "2021-12-02",
       "quantity": 1
     },
@@ -87,6 +96,7 @@
       "price": "7",
       "image": "https://bonafont.com.mx/media/home/botella_new.jpeg",
       "category": "Bebidas",
+      "tag": "bebidas",
       "dateEntry": "2021-12-01",
       "quantity": 1
     },
@@ -96,6 +106,7 @@
       "price": "7",
       "image": "https://res.cloudinary.com/riqra/image/upload/w_656,h_656,c_limit,q_auto,f_auto/v1674839595/sellers/14/drqobt0cmhrimfpzrxzp.png",
       "category": "Bebidas",
+      "tag": "bebidas",
       "dateEntry": "2021-12-02",
       "quantity": 1
     },
@@ -105,6 +116,7 @@
       "price": "10",
       "image": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00750105536338L.jpg",
       "category": "Bebidas",
+      "tag": "bebidas",
       "dateEntry": "2021-12-07",
       "quantity": 1
     },
@@ -114,6 +126,7 @@
       "price": "150",
       "image": "https://mmmole.com/wp-content/uploads/2021/08/chilaquiles-primal-12-1030x682.jpg",
       "category": "Plato fuerte",
+      "tag": "plato-fuerte",
       "dateEntry": "2021-12-24",
       "quantity": 1
     }
