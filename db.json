@@ -140,12 +140,12 @@
     {
       "id": 2,
       "category": "Comida rápida",
-      "tag": "comida-rapida"
+      "tag": "comida_rapida"
     },
     {
       "id": 3,
       "category": "Plato fuerte",
-      "tag": "plato-fuerte"
+      "tag": "plato_fuerte"
     }
   ],
   "orders": [
