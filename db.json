@@ -151,21 +151,21 @@
   "orders": [
     {
       "id": 1,
-      "client": "Alice",
+      "table": 1,
       "products": [
         {
-          "name": "Hamburguesa simple",
+          "product": "Hamburguesa simple",
           "quantity": 1
         },
         {
-          "name": "Papas Fritas",
+          "product": "Papas Fritas",
           "quantity": 1
         }
       ],
       "entry": "11:26",
       "exit": "14:03",
-      "status": "Entregada",
-      "time": 157
+      "time": 157,
+      "status": "success"
     }
   ],
   "users": [
