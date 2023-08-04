@@ -26,7 +26,7 @@
       "price": "10",
       "image": "https://www.hogarmania.com/archivos/201105/sandwich-mixto-xl-1280x720x80xX.jpg",
       "category": "Comida rápida",
-      "tag": "comida-rapida",
+      "tag": "comida_rapida",
       "dateEntry": "2021-12-01",
       "quantity": 1
     },
@@ -46,7 +46,7 @@
       "price": "10",
       "image": "https://www.menudospeques.net/images/cocinaynutricion/hamburguesas-air-fryer.jpg",
       "category": "Comida rápida",
-      "tag": "comida-rapida",
+      "tag": "comida_rapida",
       "dateEntry": "2021-12-01",
       "quantity": 1
     },
@@ -56,7 +56,7 @@
       "price": "15",
       "image": "https://d31npzejelj8v1.cloudfront.net/media/recipemanager/recipe/1687289598_doble-carne.jpg",
       "category": "Comida rápida",
-      "tag": "comida-rapida",
+      "tag": "comida_rapida",
       "dateEntry": "2021-12-01",
       "quantity": 1
     },
@@ -66,7 +66,7 @@
       "price": "5",
       "image": "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2020/06/papas-fritas-con-maicena-facil.jpg",
       "category": "Comida rápida",
-      "tag": "comida-rapida",
+      "tag": "comida_rapida",
       "dateEntry": "2021-12-02",
       "quantity": 1
     },
@@ -76,7 +76,7 @@
       "price": "5",
       "image": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/DT6XASKCERB5NFKRKTL7ASM3MM.jpg",
       "category": "Comida rápida",
-      "tag": "comida-rapida",
+      "tag": "comida_rapida",
       "dateEntry": "2021-12-02",
       "quantity": 1
     },
@@ -126,7 +126,7 @@
       "price": "150",
       "image": "https://mmmole.com/wp-content/uploads/2021/08/chilaquiles-primal-12-1030x682.jpg",
       "category": "Plato fuerte",
-      "tag": "plato-fuerte",
+      "tag": "plato_fuerte",
       "dateEntry": "2021-12-24",
       "quantity": 1
     }
