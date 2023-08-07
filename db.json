@@ -148,26 +148,7 @@
       "tag": "plato_fuerte"
     }
   ],
-  "orders": [
-    {
-      "id": 1,
-      "table": 1,
-      "products": [
-        {
-          "product": "Hamburguesa simple",
-          "quantity": 1
-        },
-        {
-          "product": "Papas Fritas",
-          "quantity": 1
-        }
-      ],
-      "entry": "11:26",
-      "exit": "14:03",
-      "time": 157,
-      "status": "success"
-    }
-  ],
+  "orders": [],
   "users": [
     {
       "id": 1,
