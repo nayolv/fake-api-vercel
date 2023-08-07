@@ -148,7 +148,30 @@
       "tag": "plato_fuerte"
     }
   ],
-  "orders": [],
+  "orders": [
+    {
+      "table": "1",
+      "products": [
+        {
+          "id": 9,
+          "product": "Agua 500ml",
+          "price": "5",
+          "quantity": "1"
+        },
+        {
+          "id": 4,
+          "product": "Jugo de frutas natural",
+          "price": "7",
+          "quantity": "1"
+        }
+      ],
+      "entry": "",
+      "exit": "",
+      "time": "",
+      "status": "pending",
+      "id": 1
+    }
+  ],
   "users": [
     {
       "id": 1,
