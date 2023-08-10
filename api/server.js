@@ -20,7 +20,11 @@ server.use((req, res, next) => {
   }
   // Continue to JSON Server router
   next()
-})
+});
+
+server.use(jsonServer.rewriter({
+    '/*': '/$1',
+  }))
 
 // Use default router
 server.use(router)
