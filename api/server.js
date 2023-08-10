@@ -1,28 +1,29 @@
 const jsonServer = require('json-server')
-const clone = require('clone')
-const data = require('../db.json')
-
-const isProductionEnv = process.env.NODE_ENV === 'production';
 const server = jsonServer.create()
-
-// For mocking the POST request, POST request won't make any changes to the DB in production environment
-const router = jsonServer.router(isProductionEnv ? clone(data) : 'db.json', {
-    _isFake: isProductionEnv
-})
+const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 
+// Set default middlewares (logger, static, cors and no-cache)
 server.use(middlewares)
 
+// Add custom routes before JSON Server router
+server.get('/echo', (req, res) => {
+  res.jsonp(req.query)
+})
+
+// To handle POST, PUT and PATCH you need to use a body-parser
+// You can use the one used by JSON Server
+server.use(jsonServer.bodyParser)
 server.use((req, res, next) => {
-    if (req.path !== '/')
-        router.db.setState(clone(data))
-    next()
+  if (req.method === 'POST') {
+    req.body.createdAt = Date.now()
+  }
+  // Continue to JSON Server router
+  next()
 })
 
+// Use default router
 server.use(router)
-server.listen(process.env.PORT || 8000, () => {
-    console.log('JSON Server is running')
+server.listen(3000, () => {
+  console.log('JSON Server is running')
 })
-
-// Export the Server API
-module.exports = server
