@@ -148,7 +148,25 @@
       "tag": "plato_fuerte"
     }
   ],
-  "orders": [],
+  "orders": [
+    {
+      "table": "1",
+      "products": [
+        {
+          "id": "1",
+          "product": "Hamburguesa sencilla",
+          "price": "35",
+          "quantity": "2"
+        }
+      ],
+      "entry_hour": "11:35",
+      "exit_hour": "",
+      "date": "11/08/2023",
+      "time": "",
+      "status": "pending",
+      "id": 1
+    }
+  ],
   "users": [
     {
       "id": 1,

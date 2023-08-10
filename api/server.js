@@ -1,23 +1,28 @@
-const jsonServer = require('json-server');
-const server = jsonServer.create();
-const middlewares = jsonServer.defaults();
-const router = jsonServer.router('db.json'); // Usar el archivo db.json como base de datos
+const jsonServer = require('json-server')
+const clone = require('clone')
+const data = require('../db.json')
 
-server.use(middlewares);
-server.use(jsonServer.bodyParser);
+const isProductionEnv = process.env.NODE_ENV === 'production';
+const server = jsonServer.create()
 
-// Middleware para guardar los cambios en el archivo db.json
-server.use(async (req, res, next) => {
-  await next(); // Deja que el enrutador maneje la solicitud primero
-  if (req.method === 'POST' || req.method === 'PUT' || req.method === 'PATCH' || req.method === 'DELETE') {
-    // Realiza la escritura en el archivo db.json después de que se hayan manejado las operaciones
-    await router.db.write();
-  }
-});
+// For mocking the POST request, POST request won't make any changes to the DB in production environment
+const router = jsonServer.router(isProductionEnv ? clone(data) : 'db.json', {
+    _isFake: isProductionEnv
+})
+const middlewares = jsonServer.defaults()
 
-server.use(router);
+server.use(middlewares)
 
-const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => {
-  console.log(`JSON Server is running on port ${PORT}`);
-});
+server.use((req, res, next) => {
+    if (req.path !== '/')
+        router.db.setState(clone(data))
+    next()
+})
+
+server.use(router)
+server.listen(process.env.PORT || 8000, () => {
+    console.log('JSON Server is running')
+})
+
+// Export the Server API
+module.exports = server
