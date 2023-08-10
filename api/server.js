@@ -8,7 +8,7 @@ server.use(middlewares)
 
 // Add custom routes before JSON Server router
 server.get('/echo', (req, res) => {
-  res.jsonp(req.query)
+  res.json(req.query)
 })
 
 // To handle POST, PUT and PATCH you need to use a body-parser
@@ -17,11 +17,20 @@ server.use(jsonServer.bodyParser)
 server.use((req, res, next) => {
   if (req.method === 'POST') {
     req.body.createdAt = Date.now();
-    res.json({ message:"post successfully", name: req.body.name});
+    // return res.json(req.body);
   }
   // Continue to JSON Server router
   next()
 });
+
+server.post('/orders', (req, res, next) => {
+    router.db.get('orders').push(req.body).write();
+    const responseObj = {
+        message: "Order created successfully",
+        name: req.body.name
+      };
+      res.json(responseObj);
+  });
 
 server.use(jsonServer.rewriter({
     '/*': '/$1',

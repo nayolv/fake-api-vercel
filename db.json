@@ -166,6 +166,75 @@
       "status": "pending",
       "createdAt": 1691707267554,
       "id": 1
+    },
+    {
+      "table": "5",
+      "products": [
+        {
+          "id": "1",
+          "product": "Hamburguesa sencilla",
+          "price": "35",
+          "quantity": "2"
+        }
+      ],
+      "entry_hour": "11:35",
+      "exit_hour": "",
+      "date": "11/08/2023",
+      "time": "",
+      "status": "pending",
+      "createdAt": 1691707717932,
+      "id": 2
+    },
+    {
+      "table": "10",
+      "products": [
+        {
+          "id": "1",
+          "product": "Hamburguesa sencilla",
+          "price": "35",
+          "quantity": "2"
+        }
+      ],
+      "entry_hour": "11:35",
+      "exit_hour": "",
+      "date": "11/08/2023",
+      "time": "",
+      "status": "pending",
+      "id": 3
+    },
+    {
+      "table": "28",
+      "products": [
+        {
+          "id": "1",
+          "product": "Hamburguesa sencilla",
+          "price": "35",
+          "quantity": "2"
+        }
+      ],
+      "entry_hour": "11:35",
+      "exit_hour": "",
+      "date": "11/08/2023",
+      "time": "",
+      "status": "pending",
+      "createdAt": 1691708636648
+    },
+    {
+      "table": "17",
+      "products": [
+        {
+          "id": "1",
+          "product": "Hamburguesa sencilla",
+          "price": "35",
+          "quantity": "2"
+        }
+      ],
+      "entry_hour": "11:35",
+      "exit_hour": "",
+      "date": "11/08/2023",
+      "time": "",
+      "status": "pending",
+      "createdAt": 1691708752102
     }
   ],
   "users": [
