@@ -264,6 +264,51 @@
       "time": "",
       "status": "pending",
       "createdAt": 1691778207647
+    },
+    {
+      "table": "1",
+      "products": [
+        {
+          "id": 4,
+          "product": "Jugo de frutas natural",
+          "price": "7",
+          "quantity": "1"
+        },
+        {
+          "id": 2,
+          "product": "Cafe con leche",
+          "price": "7",
+          "quantity": "1"
+        }
+      ],
+      "entry_hour": "12:49:26",
+      "exit_hour": "",
+      "date": "11/08/2023",
+      "time": "",
+      "status": "pending",
+      "createdAt": 1691779766856
+    }
+  ],
+  "orders_category": [
+    {
+      "id": 1,
+      "category": "Pendientes",
+      "tag": "pending"
+    },
+    {
+      "id": 2,
+      "category": "En proceso",
+      "tag": "in_process"
+    },
+    {
+      "id": 3,
+      "category": "Terminadas",
+      "tag": "success"
+    },
+    {
+      "id": 4,
+      "category": "Canceladas",
+      "tag": "cancel"
     }
   ],
   "users": [
