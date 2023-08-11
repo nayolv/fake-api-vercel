@@ -285,11 +285,11 @@
       "exit_hour": "",
       "date": "11/08/2023",
       "time": "",
-      "status": "pending",
+      "status": "done",
       "createdAt": 1691779766856
     }
   ],
-  "orders_category": [
+  "orders_status": [
     {
       "id": 1,
       "category": "Pendientes",
