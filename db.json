@@ -235,6 +235,35 @@
       "time": "",
       "status": "pending",
       "createdAt": 1691708752102
+    },
+    {
+      "table": "1",
+      "products": [
+        {
+          "id": 1,
+          "product": "Café americano",
+          "price": "5",
+          "quantity": "1"
+        },
+        {
+          "id": 2,
+          "product": "Cafe con leche",
+          "price": "7",
+          "quantity": "1"
+        },
+        {
+          "id": 11,
+          "product": "Bebida/gaseosa 500ml",
+          "price": "7",
+          "quantity": "1"
+        }
+      ],
+      "entry_hour": "12:23:27",
+      "exit_hour": "",
+      "date": "11/08/2023",
+      "time": "",
+      "status": "pending",
+      "createdAt": 1691778207647
     }
   ],
   "users": [
